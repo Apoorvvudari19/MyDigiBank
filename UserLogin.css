@@ -1,0 +1,90 @@
+/* Center the login form on the screen */
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Labels and inputs stacked vertically */
+.login-container label {
+  display: block;
+  margin-bottom: 10px;
+  color: #444;
+  font-size: 14px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  transition: border-color 0.3s;
+}
+
+.login-container input:focus {
+  border-color: #0066cc;
+  outline: none;
+}
+
+/* Submit button styling */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 15px;
+  background-color: #f50505;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-container button:hover {
+  background-color: #004ea3;
+}
+
+/* Error or alert styles (optional if you add div-based alerts) */
+.login-container .error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+.forgot-password {
+  margin-top: 12px;
+  text-align: center;
+  color: #0066cc;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.forgot-password:hover {
+  color: #004ea3;
+}
+.login-header {
+  background-color: #f20505;
+  color: white;
+  text-align: center;
+  padding: 10px ;
+  font-size: 1rem;
+  font-weight: bold;
+  border-bottom: 3px solid #010307;
+  margin-bottom: 0px;
+}
+

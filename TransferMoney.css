@@ -1,0 +1,57 @@
+.transfer-container {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .transfer-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .transfer-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .transfer-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .transfer-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .transfer-container input {
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .transfer-container button {
+    padding: 10px;
+    background-color: #f10505;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .transfer-container button:hover {
+    background-color: #cb0606;
+  }
+  
+  .message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+  }
+  
